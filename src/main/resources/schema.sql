@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS avenger
+(
+    id   SERIAL PRIMARY KEY,
+    name VARCHAR(16) UNIQUE
+);
