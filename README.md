@@ -1,8 +1,14 @@
 # Kotlin Spring boot Native Application
 in this tutorial, I have adjusted the Spring boot Native Java tutorial [here](https://spring-boot-cnb-hol-en.apps.pcfone.io/)
-into the Kotlin equivalent to showcase the great process made in building
+into the Kotlin equivalent to showcase the great process made by the spring team in building
 native spring boot applications, as a disclaimer this technology is still experimental
 therefore its recommended not to be used in production environments.
+
+## Takeaways:
+- using spring boot native allows you build smaller applications with a lower memory footprint and sub-second starting times (e.g. 0.1s in this demo)
+- locally developer experience is maintain intact since you can still run the application without the overhead of building the native image.
+- downsides packaging and building the applications takes way longer sometimes up to 10m and requires more memory and computing power, these requirements will need to be moved to the CI/CD side
+- still a lot of libraries won't work specially the ones relying on reflection
 
 ## Requirements:
 - Java 11
