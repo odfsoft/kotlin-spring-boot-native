@@ -180,7 +180,7 @@ after my first attemp the build crashed with the following error:
 Error: Image build request failed with exit status 137
 ```
 I use docker desktop increasing, I increaseed the memory to 8 GB and try again:
-```shell
+````shell
 ./mvnw spring-boot:build-image -Dmaven.test.skip=true
 [INFO] Scanning for projects...
 [INFO] 
@@ -513,7 +513,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] Total time:  08:51 min
 [INFO] Finished at: 2021-05-02T15:17:06+02:00
 [INFO] ------------------------------------------------------------------------
-```
+````
 at the end the build took almost 8 min and I practically was not able to use my laptop until it was done.
 run the docker application
 ```shell
